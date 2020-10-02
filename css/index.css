@@ -21,15 +21,67 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border-style: solid;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+#topnav{
+    display: flex;
+    /* width: 100%; */
+    justify-content: flex-end;
+    margin :0 auto;
+    width:800px;
+    
+
+}
+
+#blacklambda{
+    display: flex;
+    /* width: 300px; */
+    margin-right: auto;
+    /* justify-content: flex-start;
+    align-content: flex-start; */
+}
+#buttons{
+    display: flex;
+     /* flex-direction: row; */
+     justify-content: space-evenly; 
+     width:500px;
+     /* width: auto; 
+    margin-left: auto; */
+    /* display: inline-flex;
+    flex-wrap: wrap; */
+    /* margin-left: 1200px; */
+    /* width: 1200px;
+    margin-left: 300px;;
+    margin-right: 300px; */
+}
+/* #h{
+    margin-right:30px;
+}
+#a{
+    margin-right:30px;
+}
+#p{
+    margin-right:30px;
+}
+#b{
+    margin-right:30px;
+}
+#c{
+    margin-right:30px; */
+}
 body {
 	line-height: 1;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    margin:10px;
 }
 ol, ul {
 	list-style: none;
@@ -129,6 +181,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -138,6 +191,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    /* margin-left: 150px;; */
 }
 
 footer nav a {
